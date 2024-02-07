@@ -165,6 +165,10 @@ body, html {
   
   img {
     vertical-align: inherit;
+    
+  }
+
+  .profile{
     height: 160px!important;
     width: 160px!important;
     object-fit: cover;
