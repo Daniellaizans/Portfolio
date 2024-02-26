@@ -1,0 +1,197 @@
+/*ABOUT*/
+#about{
+    background-color: #FFFFFF!important;
+    transition: all 0.5s ease!important;
+}
+
+#about h2.text-7{
+    color: #252b33!important;
+    transition: all 0.5s ease!important;
+}
+
+#about p{
+    color: #4C4D4D!important;
+    transition: all 0.5s ease!important;
+}
+
+#about ul{
+    color: #4C4D4D!important;
+    transition: all 0.5s ease!important;
+}
+
+#about h4{
+    color: #4C4D4D!important;
+    transition: all 0.5s ease!important;
+}
+#about h3{
+    color: #4C4D4D!important;
+    transition: all 0.5s ease!important;
+
+}
+
+/*Services*/
+#services{
+    background-color: rgba(248,249,250,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#services .bg-dark-1{
+    background-color: rgba(255,255,255,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#services h2{
+    color: #dee3e4!important;
+    opacity: .4!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#services h3{
+    color: #252b33!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#services p{
+    color: #4c4d4d!important;
+    transition: all 0.5s ease!important;
+
+}
+
+/*Resumen*/
+#resume{
+    background-color: #FFFFFF!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#resume h2{
+    color: #252b33!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#resume .bg-dark{
+    background-color: rgba(255,255,255,1)!important;
+    border:  1px solid #dee2e6!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#resume .text-5{
+    color: #252b33!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#resume .text-primary{
+    color: rgba(220,53,69,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#resume p.text-white-50{
+    color: #4c4d4d!important;
+}
+
+#resume .text-start{
+    color: rgba(33,37,41,1)!important;
+}
+
+
+/*Portfolio*/
+#portfolio{
+    background-color: rgba(248,249,250,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+/*Testimonio*/
+#testimonial{
+    background-color: #FFFFFF!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#testimonial .bg-dark{
+    background-color: rgba(248,249,250,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#testimonial .text-white{
+    color: rgba(33,37,41,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#testimonial .text-white-50{
+    opacity: 1;
+    color: #6c757d!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#testimonial .text-light{
+    color: rgba(33,37,41,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+
+/*CONTACTO*/
+#contact{
+    background-color: rgba(248,249,250,1)!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#contact .text-white-50{
+    opacity: .4;
+    color: #dee3e4!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#contact .text-white{
+    color: #252b33!important;
+    transition: all 0.5s ease!important;
+
+}
+
+
+#contact .form-control{
+    border-color: #dae1e3!important;
+    color: #656565!important;
+    transition: all 0.5s ease!important;
+
+    background-color: #fff!important;
+}
+
+#contact .text-light{
+    color: #4c4d4d!important;
+}
+
+/*Fotter*/
+
+#footer{
+    background-color: #FFFFFF!important;
+    transition: all 0.5s ease!important;
+
+}
+
+#footer.footer-dark {
+    color: #252b33!important;
+}
+
+#footer .nav-link{
+    color: #252b33!important;
+}
+
+/*P*/
+p.text-9{
+    color: rgba( 33,37,41,1)!important;
+}
