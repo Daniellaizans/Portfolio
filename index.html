@@ -45,9 +45,9 @@
             <ul class="navbar-nav text-lg-center my-lg-auto py-lg-3">
               <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Acerca de mí</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">¿Qué hago?</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resumen</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resumen</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">¿Qué hago?</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Testimonial</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contactame</a></li>
             </ul>       
@@ -191,81 +191,66 @@
 
       <!-- Services
             ============================================= -->
-      <section id="services" class="section bg-dark-2">
-        <div class="container px-lg-5">
-          <!-- Heading -->
-          <div class="position-relative d-flex text-center mb-5">
-            <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Servicios</h2>
-            <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">¿Qué Hago?<span
-                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
-          </div>
-          <!-- Heading end-->
-
-          <div class="row">
-            <div class="col-lg-11 mx-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="featured-box style-3 mb-5">
-                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
-                        class="fa-solid fa-database"></i> </div>
-                    <h3 class="text-white">Gestión de Bases de Datos</h3>
-                    <p class="text-white-50 mb-0">Competencia en el diseño, implementación y gestión de bases de datos
-                      eficientes, asegurando un rendimiento óptimo y la integridad de los datos.</p>
-                  </div>
+      <section id="portfolio" class="section bg-dark-2">
+              <div class="container px-lg-5">
+                <!-- Heading -->
+                <div class="position-relative d-flex text-center mb-5">
+                  <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Portfolio</h2>
+                  <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Mi Trabajo<span
+                      class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
                 </div>
-                <div class="col-md-6">
-                  <div class="featured-box style-3 mb-5">
-                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
-                        class="fa-solid fa-code"></i></div>
-                    <h3 class="text-white">Sistemas Web</h3>
-                    <p class="text-white-50 mb-0">Creación y mantenimiento de sistemas web y aplicaciones, utilizando
-                      tecnologías modernas y siguiendo las mejores prácticas de desarrollo para tu negocio.</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="featured-box style-3 mb-5">
-                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
-                        class="fa-solid fa-cloud"></i> </div>
-                    <h3 class="text-white">Cloud Engineer</h3>
-                    <p class="text-white-50 mb-0">Encargado de supervisar la gestión de los procesos basados en la nube
-                      existentes y la migración digital. Utilizando tecnologías novedosas, con experiencia en AWS, Azure
-                      y Digital Ocean.</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="featured-box style-3 mb-5">
-                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
-                        class="fa-solid fa-robot"></i> </div>
-                    <h3 class="text-white">Desarrollo de Aplicaciones con IA</h3>
-                    <p class="text-white-50 mb-0">Especialización en la construcción de aplicaciones con Inteligencia
-                      Artificial usando distintas tecnologías aprovechando su eficiencia y escalabilidad </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="featured-box style-3 mb-5 mb-md-0">
-                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
-                        class="fas fa-desktop"></i> </div>
-                    <h3 class="text-white">Diseño y Desarrollo Web</h3>
-                    <p class="text-white-50 mb-0">Creación de páginas web atractivas y funcionales que no solo cumplen
-                      con los requisitos técnicos, sino que también mejoran la presencia en línea y la imagen
-                      profesional de la empresa.</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="featured-box style-3 mb-0">
-                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
-                        class="fas fa-bullhorn"></i> </div>
-                    <h3 class="text-white"> Mejora de Imagen Empresarial</h3>
-                    <p class="text-white-50 mb-0">Asesoramiento especializado en la mejora de la imagen de la empresa en
-                      línea, ofreciendo soluciones para fortalecer la presencia digital y proyectar una imagen
-                      profesional.</p>
+                <!-- Heading end-->
+      
+                <!-- Filter Menu -->
+                <ul class="portfolio-menu nav nav-tabs nav-light justify-content-center border-bottom-0 mb-5">
+                  <li class="nav-item"> <a data-filter="*" class="nav-link active" href="">All</a></li>
+                  <li class="nav-item"> <a data-filter=".app" href="" class="nav-link">Aplicaciones</a></li>
+                  <li class="nav-item"> <a data-filter=".web" href="" class="nav-link">Web</a></li>
+                  <li class="nav-item"> <a data-filter=".varios" href="" class="nav-link">Varios</a></li>
+                </ul>
+                <!-- Filter Menu end -->
+                <div class="portfolio popup-ajax-gallery">
+                  <div class="row portfolio-filter g-4" style="position: relative; height: 877.437px;">
+                    <div class="col-sm-6 col-lg-4 app" style="position: absolute; left: 0px; top: 0px;">
+                      <div class="portfolio-box rounded">
+                        <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="img/BOT.jpg" alt="">
+                          <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/proyect-1.html"></a>
+                            <div class="portfolio-overlay-details">
+                              <h5 class="text-white fw-400">CHAT BOT I.A.</h5>
+                              <span class="text-light">Aplicacion</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 web" style="position: absolute; left: 334.656px; top: 0px;">
+                      <div class="portfolio-box rounded">
+                        <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="img/Dashboard.png" alt="">
+                          <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/proyect-2.html"></a>
+                            <div class="portfolio-overlay-details">
+                              <h5 class="text-white fw-400">Dashboard Bot</h5>
+                              <span class="text-light">Sistema Web</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 web" style="position: absolute; left: 669.312px; top: 0px;">
+                      <div class="portfolio-box rounded">
+                        <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="img/CRUD3.png" alt="">
+                          <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/proyect-3.html"></a>
+                            <div class="portfolio-overlay-details">
+                              <h5 class="text-white fw-400">CRUD Cistel</h5>
+                              <span class="text-light">Sistema Web</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
       <!-- Services end -->
 
       <!-- Resume
@@ -407,59 +392,74 @@
 
       <!-- Portfolio
             ============================================= -->
-      <section id="portfolio" class="section bg-dark-2">
+      <section id="services" class="section bg-dark-2">
         <div class="container px-lg-5">
           <!-- Heading -->
           <div class="position-relative d-flex text-center mb-5">
-            <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Portfolio</h2>
-            <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Mi Trabajo<span
+            <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Servicios</h2>
+            <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">¿Qué Hago?<span
                 class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
           </div>
           <!-- Heading end-->
 
-          <!-- Filter Menu -->
-          <ul class="portfolio-menu nav nav-tabs nav-light justify-content-center border-bottom-0 mb-5">
-            <li class="nav-item"> <a data-filter="*" class="nav-link active" href="">All</a></li>
-            <li class="nav-item"> <a data-filter=".app" href="" class="nav-link">Aplicaciones</a></li>
-            <li class="nav-item"> <a data-filter=".web" href="" class="nav-link">Web</a></li>
-            <li class="nav-item"> <a data-filter=".varios" href="" class="nav-link">Varios</a></li>
-          </ul>
-          <!-- Filter Menu end -->
-          <div class="portfolio popup-ajax-gallery">
-            <div class="row portfolio-filter g-4" style="position: relative; height: 877.437px;">
-              <div class="col-sm-6 col-lg-4 app" style="position: absolute; left: 0px; top: 0px;">
-                <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="img/BOT.jpg" alt="">
-                    <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/proyect-1.html"></a>
-                      <div class="portfolio-overlay-details">
-                        <h5 class="text-white fw-400">CHAT BOT I.A.</h5>
-                        <span class="text-light">Aplicacion</span>
-                      </div>
-                    </div>
+          <div class="row">
+            <div class="col-lg-11 mx-auto">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
+                        class="fa-solid fa-database"></i> </div>
+                    <h3 class="text-white">Gestión de Bases de Datos</h3>
+                    <p class="text-white-50 mb-0">Competencia en el diseño, implementación y gestión de bases de datos
+                      eficientes, asegurando un rendimiento óptimo y la integridad de los datos.</p>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-4 web" style="position: absolute; left: 334.656px; top: 0px;">
-                <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="img/Dashboard.png" alt="">
-                    <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/proyect-2.html"></a>
-                      <div class="portfolio-overlay-details">
-                        <h5 class="text-white fw-400">Dashboard Bot</h5>
-                        <span class="text-light">Sistema Web</span>
-                      </div>
-                    </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
+                        class="fa-solid fa-code"></i></div>
+                    <h3 class="text-white">Sistemas Web</h3>
+                    <p class="text-white-50 mb-0">Creación y mantenimiento de sistemas web y aplicaciones, utilizando
+                      tecnologías modernas y siguiendo las mejores prácticas de desarrollo para tu negocio.</p>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-4 web" style="position: absolute; left: 669.312px; top: 0px;">
-                <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="img/CRUD3.png" alt="">
-                    <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/proyect-3.html"></a>
-                      <div class="portfolio-overlay-details">
-                        <h5 class="text-white fw-400">CRUD Cistel</h5>
-                        <span class="text-light">Sistema Web</span>
-                      </div>
-                    </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
+                        class="fa-solid fa-cloud"></i> </div>
+                    <h3 class="text-white">Cloud Engineer</h3>
+                    <p class="text-white-50 mb-0">Encargado de supervisar la gestión de los procesos basados en la nube
+                      existentes y la migración digital. Utilizando tecnologías novedosas, con experiencia en AWS, Azure
+                      y Digital Ocean.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5">
+                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
+                        class="fa-solid fa-robot"></i> </div>
+                    <h3 class="text-white">Desarrollo de Aplicaciones con IA</h3>
+                    <p class="text-white-50 mb-0">Especialización en la construcción de aplicaciones con Inteligencia
+                      Artificial usando distintas tecnologías aprovechando su eficiencia y escalabilidad </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-5 mb-md-0">
+                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
+                        class="fas fa-desktop"></i> </div>
+                    <h3 class="text-white">Diseño y Desarrollo Web</h3>
+                    <p class="text-white-50 mb-0">Creación de páginas web atractivas y funcionales que no solo cumplen
+                      con los requisitos técnicos, sino que también mejoran la presencia en línea y la imagen
+                      profesional de la empresa.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="featured-box style-3 mb-0">
+                    <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i
+                        class="fas fa-bullhorn"></i> </div>
+                    <h3 class="text-white"> Mejora de Imagen Empresarial</h3>
+                    <p class="text-white-50 mb-0">Asesoramiento especializado en la mejora de la imagen de la empresa en
+                      línea, ofreciendo soluciones para fortalecer la presencia digital y proyectar una imagen
+                      profesional.</p>
                   </div>
                 </div>
               </div>
